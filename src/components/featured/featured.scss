@@ -2,6 +2,15 @@
   height: 90vh;
   position: relative;
 
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
   .category {
     position: absolute;
     top: 80px;
@@ -22,11 +31,7 @@
     }
   }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  
 
   .info {
     width: 35%;
@@ -40,8 +45,11 @@
     img {
       width: 400px;
     }
-
+    h1 {
+      font-size: 4.5rem;
+    }
     .desc {
+      font-size: 1.5rem;
       margin: 20px 0px;
     }
 
@@ -61,7 +69,7 @@
         cursor: pointer;
 
         &.play {
-          background-color: white;
+          background-color: rgb(157, 52, 218);
           color: var(--main-color);
         }
 

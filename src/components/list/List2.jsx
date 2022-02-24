@@ -44,7 +44,7 @@ export default function List() {
         />
         <div className="container" ref={listRef}>
           <ListItem10 index={0} />
-          <ListItem9 index={1} />
+          <ListItem4 index={1} />
           <ListItem8 index={2} />
           <ListItem7 index={3} />
           <ListItem6 index={4} />

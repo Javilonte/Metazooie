@@ -17,17 +17,14 @@ const Navbar = () => {
             src="http://metazooie.com/img/logo_white.png"
             alt=""
           />
-          <span>Metazooie</span>
-          <span>Metazooie Metaverses</span>
-          <span>Audio Experiences</span>
-
+          
         </div>
         <div className="right">
-          <Search className="icon" />
-          <span>KID</span>
+          
+          <span>Connect to wallet</span>
           <Notifications className="icon" />
           <img
-            src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png"
             alt=""
           />
           <div className="profile">
