@@ -38,9 +38,9 @@ export default function ListItem({ index }) {
             </div>
             <div className="itemInfoTop">
               <span>
-Desert Temple</span>
+                Desert Temple</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             You are on an archeological team that’s racing to find the Temple Treasure before another team of ruthless mercenaries.

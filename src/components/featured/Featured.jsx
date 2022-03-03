@@ -25,7 +25,8 @@ export default function Featured({ type }) {
         <div className="buttons">
           <button className="play">
             <PlayArrow />
-            <span>Enter</span>
+            
+            <a target="_blank" href="https://sanpatricio.kazooie.io">Enter</a>
           </button>
           <button className="more">
             <InfoOutlined />

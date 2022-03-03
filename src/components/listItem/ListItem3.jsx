@@ -37,9 +37,9 @@ export default function ListItem({ index }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>Signal</span>
+              <span>Metahuman</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             After a terrible crash, a scientist must rely on his ingenuity to find a way to signal that he is alive and can survive until a potential rescue.

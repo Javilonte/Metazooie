@@ -21,42 +21,23 @@ export default function List() {
 
   const listRef = useRef();
 
-  const handleClick = (direction) => {
-    setIsMoved(true);
-    let distance = listRef.current.getBoundingClientRect().x - 50;
-    if (direction === "left" && slideNumber > 0) {
-      setSlideNumber(slideNumber - 1);
-      listRef.current.style.transform = `translateX(${230 + distance}px)`;
-    }
-    if (direction === "right" && slideNumber < 5) {
-      setSlideNumber(slideNumber + 1);
-      listRef.current.style.transform = `translateX(${-230 + distance}px)`;
-    }
-  };
+ 
   return (
     <div className="list">
-      <span className="listTitle">Metazooie Experiences</span>
+      <span className="listTitle">Meta Architecture</span>
       <div className="wrapper">
         <ArrowBackIosOutlined
           className="sliderArrow left"
-          onClick={() => handleClick("left")}
-          style={{ display: !isMoved && "none" }}
+          
         />
         <div className="container" ref={listRef}>
-          <ListItem10 index={0} />
-          <ListItem4 index={1} />
-          <ListItem8 index={2} />
-          <ListItem7 index={3} />
-          <ListItem6 index={4} />
-          <ListItem5 index={5} />
-          <ListItem4 index={6} />
-          <ListItem3 index={7} />
-          <ListItem2 index={8} />
-          <ListItem index={9} />
+          <ListItem8 index={0} />
+          <ListItem9 index={1} />
+
         </div>
         <ArrowForwardIosOutlined
           className="sliderArrow right"
-          onClick={() => handleClick("right")}
+         
         />
       </div>
     </div>

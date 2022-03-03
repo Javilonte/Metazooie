@@ -37,9 +37,9 @@ export default function ListItem({ index }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>Underwater</span>
+              <span>San Patricio</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             Experience the life of a fish in a magical underwater world

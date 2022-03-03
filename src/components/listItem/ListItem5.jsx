@@ -37,9 +37,9 @@ export default function ListItem({ index }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>Mountain Climb</span>
+              <span>Signal</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             A Kangaroo must overcome the challenges and reach the top of a mountain.

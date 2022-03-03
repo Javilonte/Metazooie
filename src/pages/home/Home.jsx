@@ -4,6 +4,7 @@ import "./home.scss";
 import List from "../../components/list/List";
 import List2 from "../../components/list/List2";
 import List3 from "../../components/list/List3";
+import Footer from "../../components/footer/index.jsx";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <List/>
       <List2/>
       <List3/>
-
+      <Footer/>
     </div>
   );
 };

@@ -37,9 +37,9 @@ export default function ListItem({ index }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>Space Adventure</span>
+              <span>Underwater</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             In the year 2033, a team of space explorers travels through a wormhole in search of a new home for mankind.

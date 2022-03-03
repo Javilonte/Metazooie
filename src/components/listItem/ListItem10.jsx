@@ -21,7 +21,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/MZ2jsjc/Highres-Screenshot00009.png"
+        src="https://i.ibb.co/n1CyfDH/Metahuman-1-0.png"
         alt=""
         
       />
@@ -37,13 +37,12 @@ export default function ListItem({ index }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>1 hour 14 mins</span>
+              <span>Metahuman Interactions </span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Praesentium hic rem eveniet error possimus, neque ex doloribus.
+            Don’t be fooled by highly advanced A.I. Metahumans in this ground-breaking experiment.  
             </div>
             <div className="genre">Action</div>
           </div>

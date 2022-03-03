@@ -37,9 +37,9 @@ export default function ListItem({ index }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>San Patricio</span>
+              <span>Mountain Climg</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             Animal gathering at luxury contemporary residence in the Mexican hills.

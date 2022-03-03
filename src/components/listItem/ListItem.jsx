@@ -41,7 +41,7 @@ export default function ListItem({ index }) {
             <div className="itemInfoTop">
               <span>Alien Habitat</span>
               <span className="limit">+16</span>
-              <span>1999</span>
+              <span>2022</span>
             </div>
             <div className="desc">
             A team of astronauts encounter alien lifeform after responding to an unknown transmission from space.

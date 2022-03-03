@@ -36,7 +36,7 @@ export default function List() {
   };
   return (
     <div className="list">
-      <span className="listTitle">Metazooie Metaverses</span>
+      <span className="listTitle">Metazooie Originals</span>
       <div className="wrapper">
         <ArrowBackIosOutlined
           className="sliderArrow left"
@@ -52,8 +52,7 @@ export default function List() {
           <ListItem6 index={5} />
           <ListItem7 index={6} />
           <ListItem8 index={7} />
-          <ListItem9 index={8} />
-          <ListItem10 index={9} />
+
         </div>
         <ArrowForwardIosOutlined
           className="sliderArrow right"

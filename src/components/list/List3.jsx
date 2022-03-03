@@ -35,7 +35,7 @@ export default function List() {
   };
   return (
     <div className="list">
-      <span className="listTitle">New Experiences</span>
+      <span className="listTitle">Metahuman Interacions</span>
       <div className="wrapper">
         <ArrowBackIosOutlined
           className="sliderArrow left"
@@ -43,16 +43,8 @@ export default function List() {
           style={{ display: !isMoved && "none" }}
         />
         <div className="container" ref={listRef}>
-          <ListItem5 index={0} />
-          <ListItem4 index={1} />
-          <ListItem3 index={2} />
-          <ListItem2 index={3} />
-          <ListItem index={4} />
-          <ListItem6 index={5} />
-          <ListItem7 index={6} />
-          <ListItem8 index={7} />
-          <ListItem9 index={8} />
-          <ListItem10 index={9} />
+          <ListItem10 index={0} />
+
         </div>
         <ArrowForwardIosOutlined
           className="sliderArrow right"
