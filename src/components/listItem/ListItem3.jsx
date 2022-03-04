@@ -30,16 +30,16 @@ export default function ListItem({ index }) {
         <>
           <video src={Background} autoPlay={true} loop />
           <div className="itemInfo">
-            <div className="icons">
+            {/* <div className="icons">
               <PlayArrow className="icon" />
               <Add className="icon" />
               <ThumbUpAltOutlined className="icon" />
               <ThumbDownOutlined className="icon" />
-            </div>
+            </div> */}
             <div className="itemInfoTop">
               <span>Metahuman</span>
-              <span className="limit">+16</span>
-              <span>2022</span>
+              {/* <span className="limit">+16</span> */}
+              <span className="limit">2022</span>
             </div>
             <div className="desc">
             After a terrible crash, a scientist must rely on his ingenuity to find a way to signal that he is alive and can survive until a potential rescue.

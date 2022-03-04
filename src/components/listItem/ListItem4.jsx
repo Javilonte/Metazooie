@@ -30,16 +30,16 @@ export default function ListItem({ index }) {
         <>
           <video src={Background} autoPlay={true} loop />
           <div className="itemInfo">
-            <div className="icons">
+{/*             <div className="icons">
               <PlayArrow className="icon" />
               <Add className="icon" />
               <ThumbUpAltOutlined className="icon" />
               <ThumbDownOutlined className="icon" />
-            </div>
+            </div> */}
             <div className="itemInfoTop">
               <span>Mountain Climg</span>
-              <span className="limit">+16</span>
-              <span>2022</span>
+              {/* <span className="limit">+16</span> */}
+              <span className="limit">2022</span>
             </div>
             <div className="desc">
             Animal gathering at luxury contemporary residence in the Mexican hills.

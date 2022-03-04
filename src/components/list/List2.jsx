@@ -26,19 +26,13 @@ export default function List() {
     <div className="list">
       <span className="listTitle">Meta Architecture</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined
-          className="sliderArrow left"
-          
-        />
+        
         <div className="container" ref={listRef}>
           <ListItem8 index={0} />
           <ListItem9 index={1} />
 
         </div>
-        <ArrowForwardIosOutlined
-          className="sliderArrow right"
-         
-        />
+        
       </div>
     </div>
   );

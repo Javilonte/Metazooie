@@ -1,7 +1,7 @@
 .featured {
   height: 90vh;
   position: relative;
-
+  
   video {
     position: absolute;
     top: 50%;
@@ -10,6 +10,9 @@
     height: 100%;
     object-fit: cover;
     transform: translate(-50%, -50%);
+    
+    
+    
   }
   .category {
     position: absolute;
@@ -20,6 +23,7 @@
     color: white;
     display: flex;
     align-items: center;
+    
 
     select {
       cursor: pointer;
@@ -46,18 +50,19 @@
       width: 400px;
     }
     h1 {
-      font-size: 4.5rem;
+      font-size: 3.5rem;
+      margin-bottom: 10px;
     }
     .desc {
       font-size: 1.5rem;
-      margin: 20px 0px;
+      margin: 10px 0px;
     }
 
     .buttons {
       display: flex;
 
       button {
-        padding: 10px 20px;
+        padding: 5px 30px;
         border: none;
         border-radius: 5px;
         display: flex;
@@ -67,10 +72,16 @@
         font-weight: 500;
         margin-right: 10px;
         cursor: pointer;
+        text-decoration: none;
+
+        a{
+          text-decoration: none;
+        }
 
         &.play {
           background-color: #8167f1;
           color: #fff;
+          
         }
 
         &.more {

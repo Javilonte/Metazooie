@@ -38,11 +38,7 @@ export default function List() {
     <div className="list">
       <span className="listTitle">Metazooie Originals</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined
-          className="sliderArrow left"
-          onClick={() => handleClick("left")}
-          style={{ display: !isMoved && "none" }}
-        />
+        
         <div className="container" ref={listRef}>
           <ListItem index={0} />
           <ListItem2 index={1} />
@@ -54,10 +50,7 @@ export default function List() {
           <ListItem8 index={7} />
 
         </div>
-        <ArrowForwardIosOutlined
-          className="sliderArrow right"
-          onClick={() => handleClick("right")}
-        />
+        
       </div>
     </div>
   );

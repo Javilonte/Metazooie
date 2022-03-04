@@ -8,7 +8,7 @@ export default function Featured({ type }) {
 
   return (
     <div className="featured">
-      
+      <div className="bottom">
       <video
         autoPlay 
         loop
@@ -19,9 +19,7 @@ export default function Featured({ type }) {
       
       <div className="info">
         <h1>Desert Temple</h1>
-        <span className="desc">
-        You are on an archeological team that’s racing to find the Temple Treasure before another team of ruthless mercenaries.
-        </span>
+        
         <div className="buttons">
           <button className="play">
             <PlayArrow />
@@ -33,6 +31,10 @@ export default function Featured({ type }) {
             <span>Info</span>
           </button>
         </div>
+        <span className="desc">
+        You are on an archeological team that’s racing to find the Temple Treasure before another team of ruthless mercenaries.
+        </span>
+      </div>
       </div>
     </div>
   );

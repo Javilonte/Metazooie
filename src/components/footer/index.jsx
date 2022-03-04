@@ -14,7 +14,7 @@ export default function Footer() {
           
           </div>
       </div>
-
+{/* 
       <div className="center section">
           <h2>Contact Us</h2>
           <div className="content">
@@ -31,21 +31,11 @@ export default function Footer() {
                   <span className="text" href="https://t.me/metazooie">  https://t.me/metazooie</span>
               </div>
           </div>
-      </div>
+      </div> */}
 
       <div className="right section">
-          <h2>Subscribe</h2>
-          <div className="content">
-              <form action="#">
-                  <div className="email">
-                      <div class="text">Email*</div>
-                  </div>
-                  <input className="email" required/>
-                  <div className="btn">
-                      <button className="submit">SUBSCRIBE</button>
-                  </div>
-              </form>
-          </div>
+          
+          <button className="submit">JOIN US</button>
       </div>
   </div>
 

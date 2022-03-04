@@ -30,17 +30,17 @@ export default function ListItem({ index }) {
         <>
           <video src={Background} autoPlay={true} loop />
           <div className="itemInfo">
-            <div className="icons">
+            {/* <div className="icons">
               <PlayArrow className="icon" />
               <Add className="icon" />
               <ThumbUpAltOutlined className="icon" />
               <ThumbDownOutlined className="icon" />
-            </div>
+            </div> */}
             <div className="itemInfoTop">
               <span>
                 Desert Temple</span>
-              <span className="limit">+16</span>
-              <span>2022</span>
+              {/* <span className="limit">+16</span> */}
+              <span className="limit">2022</span>
             </div>
             <div className="desc">
             You are on an archeological team that’s racing to find the Temple Treasure before another team of ruthless mercenaries.

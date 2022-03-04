@@ -37,19 +37,12 @@ export default function List() {
     <div className="list">
       <span className="listTitle">Metahuman Interacions</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined
-          className="sliderArrow left"
-          onClick={() => handleClick("left")}
-          style={{ display: !isMoved && "none" }}
-        />
+        
         <div className="container" ref={listRef}>
           <ListItem10 index={0} />
 
         </div>
-        <ArrowForwardIosOutlined
-          className="sliderArrow right"
-          onClick={() => handleClick("right")}
-        />
+       
       </div>
     </div>
   );
