@@ -1,22 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap');
+*{
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+}
 .list {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
   align-items: center;
+  span {
+    font-family: 'Inter', sans-serif;
+  }
+  span .listTitle {
+    font-family: 'Inter', sans-serif;
+  }
   .listTitle {
     color: white;
-    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
     font-weight: 1000;
     font-style: bold;
-    margin-left: 98px;
+    margin-left: 50px;
   }
 
   
     .container {
       margin-left: 50px;
       display: flex;
-      margin-top: 10px;
+      padding: 0;
       margin-right: 20px;
       margin-bottom: 20px;
+      margin-top: 20px;
       width: max-content;
       transform: translateX(0px);
       transition: all 1s ease;
@@ -30,11 +44,17 @@
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    span {
+      font-family: 'Inter', sans-serif;
+    }
+    span .listTitle {
+      font-family: 'Inter', sans-serif;
+    }
     .listTitle {
       color: white;
       font-size: 2.5rem;
       justify-content: center;
+      
       align-items: center;
       font-weight: 700;
       margin-left: 70px;
@@ -48,13 +68,19 @@
       align-items: center;
       justify-content: center;
       align-content: center;
-
+      div .container {
+        padding: 0px 48px;
+      }
       .container {
         
         display: flex;
         justify-content: center;
         margin-top: 10px;
-        width:  500px;
+        
+        flex-direction: row;
+        margin-top: 10px;
+        width: 100%;
+        height: max-content;
         transform: translateX(0px);
         transition: all 1s ease;
       }
@@ -77,6 +103,8 @@
   
     .wrapper {
       position: relative;
+      width: 100%;
+      flex-wrap: wrap;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -85,8 +113,10 @@
       .container {
         margin-left: 80px;
         display: flex;
+        flex-direction: row;
         margin-top: 10px;
-        width: max-content;
+        width: 100%;
+        height: max-content;
         transform: translateX(0px);
         transition: all 1s ease;
       }

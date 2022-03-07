@@ -130,7 +130,9 @@ footer{
     justify-content: center;
 }
 div .submit {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 .submit{
     height: 40px;
@@ -145,18 +147,24 @@ div .submit {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 100px;
-    margin-left: 50px;
+    margin: 50px;
+
     
 }
 
+.discord {
+    margin-left: 150px;
 
+}
 button:hover{
     background: #000;
 }
 .submit{
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 0px;
+    width: 250px;
 }
+
 .footer-bottom center{
     padding: 5px;
     font-size: 0.9375rem;

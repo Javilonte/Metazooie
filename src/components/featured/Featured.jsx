@@ -7,16 +7,20 @@ import "./featured.scss";
 export default function Featured({ type }) {
 
   return (
-    <div className="featured">
-      <div className="bottom">
+    <div className="featured ">
+      
+      <div className="shadow">
+      </div>
       <video
         autoPlay 
         loop
         muted
+        
         >
-        <source src={Background} type="video/mp4"/>
+        <source src={Background}  type="video/mp4"/>
       </video>
       
+    
       <div className="info">
         <h1>Desert Temple</h1>
         
@@ -36,6 +40,6 @@ export default function Featured({ type }) {
         </span>
       </div>
       </div>
-    </div>
+    
   );
 }

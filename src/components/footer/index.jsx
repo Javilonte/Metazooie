@@ -34,8 +34,8 @@ export default function Footer() {
       </div> */}
 
       <div className="right section">
-          
           <button className="submit">JOIN US</button>
+          <img className="discord" src="https://img.icons8.com/color/48/000000/discord-logo.png"/>
       </div>
   </div>
 
@@ -43,6 +43,7 @@ export default function Footer() {
       <center>
           <div><span>Powered By <a href="https://multiwebpress.com">© 2021 | All Rights Reserved | Made By Metazooie</a></span></div>
       </center>
+      
   </div>
 </footer>
 }
