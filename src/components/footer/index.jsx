@@ -33,15 +33,16 @@ export default function Footer() {
           </div>
       </div> */}
 
-      <div className="right section">
-          <button className="submit">JOIN US</button>
-          <img className="discord" src="https://img.icons8.com/color/48/000000/discord-logo.png"/>
+      <div className="right">
+            <a href="https://discord.com/invite/ymcMPSGXUW" class="submit">JOIN US</a>
+          {/* <button className="submit" href="" >JOIN US</button> */}
+          <img className="discord" src="https://img.icons8.com/color/48/000000/discord-logo.png" />
       </div>
   </div>
 
   <div className="footer-bottom">
       <center>
-          <div><span>Powered By <a href="https://multiwebpress.com">© 2021 | All Rights Reserved | Made By Metazooie</a></span></div>
+          <div><span>Powered By <a href="http://metazooie.com/">© 2022 | All Rights Reserved | Made By Metazooie</a></span></div>
       </center>
       
   </div>

@@ -30,7 +30,14 @@ export default function ListItem({ index }) {
       {isHovered && (
         <>
           
-          <video src={Background} autoPlay={true} loop />
+          <video
+        autoPlay 
+        loop
+        muted
+        >
+        <source src="https://appfiles.metazooie.com/Alien%20Habitat/Desktop%202022.02.18%20-%2013.13.31.17_Segment_0_x264.mp4"  type="video/mp4"/>
+      </video>
+          
           <div className="itemInfo">
             
             <div className="itemInfoTop">

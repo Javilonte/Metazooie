@@ -28,7 +28,14 @@ export default function ListItem({ index }) {
       
       {isHovered && (
         <>
-          <video src={Background} autoPlay={true} loop />
+        <video
+        autoPlay 
+        loop
+        muted
+        >
+        <source src="https://appfiles.metazooie.com/MetaHuman/2.JPG"  type="video/mp4"/>
+      </video>
+         
           <div className="itemInfo">
            {/*  <div className="icons">
               <PlayArrow className="icon" />

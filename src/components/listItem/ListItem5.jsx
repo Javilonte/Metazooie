@@ -21,14 +21,21 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/df1QWh9/San-patricvio2.jpg"
+        src="https://appfiles.metazooie.com/Signal/HighresScreenshot00009.png"
         alt=""
         
       />
       
       {isHovered && (
         <>
-          <video src={Background} autoPlay={true} loop />
+        <video
+        autoPlay 
+        loop
+        muted
+        >
+        <source src=""  type="video/mp4"/>
+      </video>
+         
           <div className="itemInfo">
             {/* <div className="icons">
               <PlayArrow className="icon" />

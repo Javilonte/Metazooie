@@ -18,6 +18,7 @@ footer{
 .container{
     display: flex;
     padding: 3rem;
+    justify-content: space-between;
 }
 
 .container .section{
@@ -78,7 +79,7 @@ footer{
 
 
 .left .content .social a span:hover{
-    background: rgb(157, 52, 218);
+    background: #8167f1;
 }
 
 .center .content .fas{
@@ -95,8 +96,8 @@ footer{
 }
 
 .center .content .fas:hover{
-    background: rgb(157, 52, 218);
-    border:1px solid rgb(157, 52, 218);
+    background: #8167f1;
+    border:1px solid #8167f1;
 }
 
 .center .content .text{
@@ -108,6 +109,12 @@ footer{
 .center .content .phone{
     margin: 15px 0;
 }
+
+div .right .section{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .right form .text{
     font-size: 1.0625rem;
@@ -122,7 +129,7 @@ footer{
     font-size: 1.0625rem;
     background: transparent;
     border: 1px solid #656565;
-    justify-content: center;
+    justify-content: end;
 }
 
 .right form input{
@@ -132,7 +139,8 @@ footer{
 div .submit {
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    text-decoration: NONE;
 }
 .submit{
     height: 40px;
@@ -140,10 +148,10 @@ div .submit {
     border:none;
     padding: 7px;
     outline: none;
-    background: rgb(157, 52, 218);
+    background: #8167f1;
     font-size: 1.0625rem;
     font-weight: 700;
-    justify-content: center;
+    justify-content: end;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 100px;
@@ -153,6 +161,7 @@ div .submit {
 }
 
 .discord {
+    justify-content: end;
     margin-left: 150px;
 
 }
@@ -169,6 +178,7 @@ button:hover{
     padding: 5px;
     font-size: 0.9375rem;
     background: #151515;
+    text-decoration: none;
 }
 
 .footer-bottom center span{
@@ -202,11 +212,16 @@ button:hover{
         padding:0.5rem;
         
  
-    justify-content: center;
+    
 
     }
 
     .container .section{
         margin:5px 0;
     }
+    .submit {
+        justify-content: center;
+        
+    }
+    
 }

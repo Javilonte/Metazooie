@@ -12,7 +12,7 @@ import ListItem6 from "../listItem/ListItem6";
 import ListItem7 from "../listItem/ListItem7";
 import ListItem8 from "../listItem/ListItem8";
 import ListItem9 from "../listItem/ListItem9";
-import ListItem10 from "../listItem/ListItem10";
+import ListItem11 from "../listItem/ListItem11";
 import "./list.scss";
 
 export default function List() {
@@ -30,7 +30,7 @@ export default function List() {
         <div className="container" ref={listRef}>
           <ListItem8 index={0} />
           <ListItem9 index={1} />
-
+          <ListItem11 index={2} />
         </div>
         
       </div>
