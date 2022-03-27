@@ -244,8 +244,8 @@
   }
   @media only screen and (max-width: 500px) {
     .listItem {
-      width: 180px;
-      height: 340px;
+      width: 140px;
+      height: 280px;
       border-radius: 10px;
       background-color: var(--main-color);
       align-items: center;
@@ -259,7 +259,7 @@
     
       img {
         width: 100%;
-        height: 200%;
+        height: 100%;
         object-fit: cover;
     
         /* border: 0; opcion 2 para el acomodado de
@@ -281,8 +281,8 @@
       }
     
       &:hover {
-        width: 225px;
-        height: 400px;
+        width: 140px;
+        height: 279px;
     
         -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
         box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
@@ -382,7 +382,7 @@
     
       img {
         width: 100%;
-        height: 200%;
+        height: 100%;
         object-fit: cover;
     
         /* border: 0; opcion 2 para el acomodado de
@@ -397,41 +397,42 @@
       video {
         position: absolute;
         border-radius: 10px;
-        width: 100%;
-        height: 100%;
+        width: 140px;
+        height: 279px;
         object-fit: cover;
-        transform: translate(-100%, -0%);
+        transform: translate(-100%, 0%);
       }
     
       &:hover {
-        width: 225px;
-        height: 400px;
+        width: 140px;
+        height: 279px;
     
         -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
         box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
         border-radius: 10px;
     
         img {
-          width: 225px;
-          height: 400px;
+          width: 100%;
+          height: 100%;
         
         }
         video {
-          width: 225px;
-         height: 400px;
+          width: 140px;
+          height: 279px;
           object-fit: cover;
     
         }
         
         .itemInfo {
           display: flex;
+          flex-wrap: wrap;
           flex-direction: column;
           padding: 5px;
-          width: 225px;
+          width: 140px;
           height: 100%;
-          position: absolute;
+          position: relative;
           overflow: visible;
-          transform: translate(-0%, -6%);
+          transform: translate(-0%, -55%);
           z-index: +1;
           color: #fff;
           
@@ -454,7 +455,7 @@
             display: flex;
             align-items: center;
             margin-bottom: 10px;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 600;
             margin-right: 10px;
      
@@ -467,13 +468,14 @@
               color: #fff;
             }
             span{
-              margin-right: 20px;
+              margin-right: 3px;
             }
           }
     
           .desc {
-            font-size: 13px;
+            font-size: 10px;
             margin-bottom: 10px;
+            object-fit: cover;
             color: #fff;
           }
     

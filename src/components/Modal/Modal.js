@@ -102,7 +102,7 @@ hr{
     transform: translate(10%, -100%);
 }
 @media(max-width:600px) {
-    width: 380px;
+    width: 330px;
     margin-top: 400px;
     border-radius:5px;
     hr{
@@ -187,7 +187,7 @@ button{
 }
 
 @media(max-width:800px) {
-    width: 310px;
+    width: 290px;
     video{
         border-top-left-radius: 5px;
       border-top-right-radius: 5px;
