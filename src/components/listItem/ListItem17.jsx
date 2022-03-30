@@ -21,7 +21,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/h87BnjX/vr-3d-learning.jpg"
+        src="https://uc5ad1c772b90edae917d0ea8dc0.previews.dropboxusercontent.com/p/thumb/ABf0RmDT3UX3cBwRaP-fj1S6L_ClFtO_zNkEGtEuRFFkiGJL17kTLAiFsXolND_bc1gjrccsQSDcf_uXXrx1wnvtrwGfP06jyRK_jZDDch4kyrCFbUZd8MM9d3HUAWU4WrPCqihzWHB8nqK4uv1TjCeQod6NkNF23e4iJVwGNwF8xUNjIrxFJGxIgRux_v7WatVkIbRBURaQrSkjrg7s3WVFGniNw3h11_e8pSijpJRa1jnwdf1oHMaurHcovdqhVEX1ORJewbEUV1H8Rg3Gd6r0cmM8ht1bhgMbbYW6Qave2WdLv8_QHMidBP8XqDgIgWLeJZcuB0RNQDOfFqPCnD8bo6n9NyMUsA_1-xKVykr1lMnrvSicGMic0bCWfy-iK8c/p.png"
         alt=""
         
       />

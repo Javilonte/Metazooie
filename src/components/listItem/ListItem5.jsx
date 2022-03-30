@@ -21,7 +21,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://appfiles.metazooie.com/Signal/HighresScreenshot00009.png"
+        src="https://ucbf8a03e7f1c1735cfc64a7ce2a.previews.dropboxusercontent.com/p/thumb/ABcpoFlKZ7y99lahsjXBVv436H25VStFy9g9pT9ya-mYAxoa1XzGzB77sGT6tNXdyzemplNyWf625rQ5p0RNgDQ-ympljWPtR8rWB3HRERydksBdHXrjNoVKQqy0AnDh-NBzHlYI7d3jZqyovrVuB99S8D6dC3e8sc0VziFIr2YHQOrhthk8Cci11icbc3jMp-TTiTD2F3x-PGiFWTpXXAG-us2KfWxDF4q6BEJKZZWfcUaC1JfjA9fuhB4R4Ia4T11zqv9JV-rvanUqAaKr0tpjbAgFfJhdhuyPBBEeCHgQquizBLql1ZVhJUOInPIZA_Fkkhk1Idb4Yt7aw6ggA4QURrs69DPT-To22capXDYCDwWJmvoFXTXXBp9bf0ZKEaY/p.png"
         alt=""
         
       />

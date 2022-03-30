@@ -21,7 +21,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/N37Q0RY/big-race.png"
+        src="https://uc01b53bc78f0bb3ac580dc7122a.previews.dropboxusercontent.com/p/thumb/ABfElnXzuGwOoWZFOjWOhs4XJBIPxASeC1u9doEWKjFF-KjkV95EnSP14L5z_givd8Qcq45w1n1xjbG6Cy8Pu_dKG-5XKXyjPHf9uYd9tRWzjdhdTQHRrLBCv9vFzo4srV5pdkl46TSml-DPxlC-I8fLTcg8DtOkY__CF1YmdK8Pkq7x9SbB3EA-Ekg1Oo9pMQZNxtPUmJy4DQ2S1hyTfSIEnlaeNLSqyX1rA8_8mjdaQd72rJTeoITdHKnaPAmLFqlc0yzM5wmvjPFd0xlAwbcYqTXoQr5cGEH4TRE3I9IdKm1twzStSAP9jyTqUdy80_nAyQUliEpT_w3f40iv9SmgT9ZTJdHgcvSqAXSN8vlodNVJawOT85GYjplRFPgQa6Y/p.png"
         alt=""
         
       />

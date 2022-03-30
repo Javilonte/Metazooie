@@ -21,7 +21,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/mDQ197L/influ.png"
+        src="https://uc5bf56df82f8d51a36ccb1bbfe6.previews.dropboxusercontent.com/p/thumb/ABf0sRSQHH6sV-LUWSlwBqwAImhdMpC1wcqmJhspXSgSWDEZJ4qt_SHhJn3U61-L8vbr-atHg2OLlXe7mZbUJcwNbinlG2B_oQf9FPO3X5NM-EDuYcsYI6EW9DNnGRDmc8fd0M6sVbEzd1LjfTAKJKtq-ytw8o8oDzUm_T2kyhLnEUCusn0t_arV5SHyq2WdsmhqeuTb6FdAii2iUqDHjxEuYdlcu8ELExrCZBxLOCsL0vHA2iMXQiXb1uCDhzfla8LNCG3mY3Bfzp1dkC-krFLV_qxdWkMJuz5YdqZ0ynSQJpBYA3wIPLiM_v5PyqKpuCQMCL7obsf5LbpFfXyJDE7ue0zkA833dP2-G3387DQPfTdczCRFC_wL-gPKNzgPHCM/p.png"
         alt=""
         
       />

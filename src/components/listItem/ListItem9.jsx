@@ -21,7 +21,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/xsMf1RR/LAMO-2.jpg"
+        src="https://uce786117c346ea9b92ff7616a36.previews.dropboxusercontent.com/p/thumb/ABcxB6lLzBOpRuZfA-xfgFzDlRJrpUHUwVtBK14U2UrQ9L99w8Qyk-ECpv0PcfvIhZUZOTOq7qJ71rauey-qy0pGgma76OhJCtPiDQtKPjTA9BCJMKzlWSSMjZU5TDg9NLck-bgHbleGKlUwJf5TM3etIUeS4qiRaiU2JhERcyo8K_03cI-62DnB-p-Xn5aXcMpExWMLB0gulpe_-KaWEfOpUR-0YmrggcMUCorMTtf1kNpHlEsldeVb6HfpC1crXWckbI4bOQ9XBY8pGNtwp3UQgaQ-vcE4FdQJgd7xefbLFaR3tfsb-73M0_pQLUo1srtHPHr8V9HfcXK0pV5zru0wojpmWpDfDaPWeL-V1zScdK3jENcGZAUeHt7DPrO7hHQ/p.png"
         alt=""
         
       />

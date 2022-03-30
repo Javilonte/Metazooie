@@ -22,7 +22,7 @@ export default function ListItem({ index }) {
     >
       <img
        
-        src="https://i.ibb.co/c1V5Nhz/Highres-Screenshot00000-1.png"
+        src="https://uc9c7e003cae75c86545cdb942d0.previews.dropboxusercontent.com/p/thumb/ABfPLpw_GwaVNhsobZF_4tkW4R1lCD_SI0ZNccWR8C6XJ1XXpw_L9VRiKZXynJT_dlaMmeahIqYUfse-fQsnuBJE1htwJ0RAunTIEWzx33dmuTf_d0_6cE1QXbFOZTdZcEqtuIyYdzLtMOdjlSyUiIV80NyPj9ojLXaQ1yvAE4x6DxRMfKFmGqvC3Br2JaclQu2ZPQZ2YSlM5lP5kabY1Nbt8htlhaGotaNVldaafhDnCGDo_mu_hz6qqmSKDv5ry_FmBCBc2TjEw4AceB8S73o9NAfzkS3dNdgfjgz18ncYKJAZKQA2nKg5yBRNO97bHMvgHLs-wwHvUEnw7Cw5euxtCyTS_MBqAu1zYDcpAPXbFZapCkA-ATfNn-yaZ4Cntsk/p.png"
         alt=""
         
       />
